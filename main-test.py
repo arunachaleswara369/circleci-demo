@@ -2,10 +2,10 @@
 from main import Add
 
 def TestAdd():
-    assert Add(2,3) == 5
+    assert Add(2,3) == 6
     print("Add Function works correctly")
 
-    assert Add(5,5) == 10
+    assert Add(5,5) == 25
     print("Add Function Works correctly")
 
 if __name__ == '__main__':
